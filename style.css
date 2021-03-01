@@ -1,8 +1,8 @@
 body {
-  margin: 0;
   /* background: #222; */
   font-family: "Work Sans", sans-serif;
   font-weight: 400;
+  height: 100%;
 }
 
 .container {
@@ -11,6 +11,7 @@ body {
 }
 
 header {
+  width: 100%;
   background: #55d6aa;
 }
 
@@ -70,5 +71,20 @@ nav a:hover::before {
 }
 
 h1 {
+  text-align: center;
+}
+
+main {
+  width: 100%;
+  top: 100px;
+}
+
+footer {
+  width: 100%;
+  background-color: #55d6aa;
+}
+
+.copyright {
+  padding: 20px 0;
   text-align: center;
 }
