@@ -5,20 +5,31 @@ body {
   height: 100%;
 }
 
-.container {
+.nav {
+  height: 70px;
+  background-color: black;
+  opacity: 70%;
+}
+
+.nav-container {
   width: 80%;
   margin: 0 auto;
 }
 
 header {
   width: 100%;
-  background: #55d6aa;
+  height: 193px;
+  background-image: url("images/header-image.jpg");
 }
 
 header::after {
   content: '';
   display: table;
   clear: both;
+}
+
+.header-space {
+  height: 123px;
 }
 
 .logo {
@@ -46,20 +57,20 @@ nav li {
 }
 
 nav a {
-  color: #444;
+  color: white;
   text-decoration: none;
   text-transform: uppercase;
 }
 
 nav a:hover {
-  color: #000;
+  color: #C0C0C0;
 }
 
 nav a::before {
   content: '';
   display: block;
   height: 5px;
-  background-color: #444;
+  background-color: #C0C0C0;
   position: absolute;
   width: 0;
   top: 0;
@@ -70,18 +81,29 @@ nav a:hover::before {
   width: 100%;
 }
 
+.main-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
 h1 {
   text-align: center;
 }
 
+.profile-image {
+  float: left;
+  margin-right: 20px;
+}
+
 main {
   width: 100%;
-  top: 100px;
+  min-height: calc(100vh - 193px - 59.2px);
 }
 
 footer {
   width: 100%;
-  background-color: #55d6aa;
+  background-color: black;
+  color: white;
 }
 
 .copyright {
