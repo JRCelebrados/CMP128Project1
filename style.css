@@ -30,13 +30,12 @@ header::after {
 }
 
 .header-title-container {
-  width: 80%;
-  margin: 0 auto;
+  /* margin: 0 auto; */
 }
 
 .header-title {
   text-align: center;
-  padding: 1em 0;
+  padding: .5em 0;
 }
 
 .logo {
